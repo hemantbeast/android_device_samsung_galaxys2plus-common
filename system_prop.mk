@@ -8,10 +8,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.legacyencoder=true \
     media.stagefright.less-secure=true
 
-# Media
-PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.codecremote=false
-
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     rild.libpath=/system/lib/libbrcm_ril.so \
