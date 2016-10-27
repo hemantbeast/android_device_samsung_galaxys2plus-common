@@ -28,6 +28,10 @@ BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0xa2000000
 BOARD_KERNEL_PAGESIZE := 4096
 
+# Kernel toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
 # File system
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
