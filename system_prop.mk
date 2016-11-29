@@ -49,3 +49,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
     ro.secure=0
+
+# Set Hardware Info
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.device.chipset=Broadcom BC28155
+    ro.device.cpu=Dual-core 1.2 GHz
+    ro.device.gpu=Broadcom VideoCore IV
+    ro.device.rear_cam=8 MP
+    ro.device.front_cam=2 MP
+    ro.device.screen_res=480x800

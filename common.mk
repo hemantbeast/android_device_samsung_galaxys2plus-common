@@ -10,6 +10,7 @@ DEVICE_PACKAGE_OVERLAYS += $(COMMON_PATH)/overlay
 # Boot animation
 TARGET_SCREEN_WIDTH := 480
 TARGET_SCREEN_HEIGHT := 800
+-include vendor/aicp/configs/bootanimation.mk
 
 # Init files
 PRODUCT_COPY_FILES += \
