@@ -108,6 +108,7 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 MALLOC_SVELTE := true
 
 # Some of our vendor libs have text relocations
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # SELinux
