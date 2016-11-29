@@ -47,6 +47,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Dalvik heap
 PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.dex2oat-swap=false \
+    dalvik.vm.dex2oat-Xmx=256m \
     dalvik.vm.heapgrowthlimit=56m
 
 # Disable ADB authentication
