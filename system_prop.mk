@@ -1,3 +1,7 @@
+# Atlas-Service
+PRODUCT_PROPERTY_OVERRIDES += \
+    config.disable_atlas=true
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1
