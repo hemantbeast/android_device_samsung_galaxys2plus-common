@@ -79,6 +79,10 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_CUSTOM_BT_CONFIG := $(COMMON_PATH)/bluetooth/libbt_vndcfg.txt
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(COMMON_PATH)/bluetooth
 
+# Camera
+TARGET_HAS_LEGACY_CAMERA_HAL1 := true
+TARGET_USE_AVC_BASELINE_PROFILE := true
+
 # Connectivity - Wi-Fi
 BOARD_HAVE_SAMSUNG_WIFI             := true
 BOARD_WLAN_DEVICE                   := bcmdhd
@@ -113,7 +117,6 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 MALLOC_SVELTE := true
 
 # Some of our vendor libs have text relocations
-TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
 # SELinux
